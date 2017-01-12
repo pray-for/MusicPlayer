@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/item_mymusic_position"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:gravity="center"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linear">
+
+                <TextView
+                    android:id="@+id/item_mymusic_singer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="singer" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - "/>
+
+                <TextView
+                    android:id="@+id/item_mymusic_song"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="song" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_mymusic_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linear"
+                android:text="time" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
